@@ -5,7 +5,9 @@ import Todos from "./components/Todos";
 function App() {
   return (
     <>
-      <div className=" flex justify-center py-8 text-2xl font-bold">Todos</div>
+      <div className=" flex justify-center py-12 text-5xl font-semibold">
+        Todos
+      </div>
       <AddTodo />
       <Todos />
     </>
